@@ -11,3 +11,6 @@ print('e.g. print("Hello" + "world")')
 print(("New lines can be created with a backslash and n."))
 
 
+store = input("What is your name?\n")
+print("This is the length of your input "+
+str(len(store)))
